@@ -1,26 +1,107 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+/* === Moroccan-Inspired Design System === */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Light theme */
+  --background: 40 33% 98%;       /* #FDFBF7 warm cream */
+  --foreground: 240 12% 13%;      /* #1E1E24 charcoal */
+  
+  --card: 40 33% 96%;
+  --card-foreground: 240 12% 13%;
+  
+  --primary: 18 58% 49%;          /* #C85A32 terracotta */
+  --primary-foreground: 40 33% 98%;
+  
+  --secondary: 37 28% 80%;        /* #D4C5A9 sand/dune */
+  --secondary-foreground: 240 12% 13%;
+  
+  --muted: 37 20% 92%;
+  --muted-foreground: 37 15% 40%;
+  
+  --accent: 217 91% 53%;          /* #2563EB majorelle blue */
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  
+  --border: 37 20% 88%;
+  --input: 37 20% 85%;
+  --ring: 18 58% 49%;
+  --radius: 0.75rem;
+}
+
+[data-theme='dark'] {
+  --background: 240 15% 8%;       /* #121218 deep charcoal */
+  --foreground: 30 23% 93%;       /* #F4EFEA warm white */
+  
+  --card: 240 12% 12%;
+  --card-foreground: 30 23% 93%;
+  
+  --primary: 18 62% 55%;          /* brighter terracotta */
+  --primary-foreground: 0 0% 100%;
+  
+  --secondary: 37 15% 22%;
+  --secondary-foreground: 30 23% 93%;
+  
+  --muted: 240 10% 16%;
+  --muted-foreground: 37 10% 60%;
+  
+  --accent: 217 91% 60%;
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+  
+  --border: 240 10% 18%;
+  --input: 240 10% 20%;
+  --ring: 18 62% 55%;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+  --font-sans: var(--font-geist-sans), 'Noto Sans Arabic', system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: hsl(var(--primary) / 0.2);
+  color: hsl(var(--foreground));
+}
+
+/* Moroccan geometric pattern utility */
+.moroccan-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C85A32' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }

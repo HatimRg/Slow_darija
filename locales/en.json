@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "Slow Darija — Learn Moroccan Darija",
+    "description": "Learn Moroccan Darija naturally, without rushing it."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "register": "Sign up",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "logout": "Log out",
+    "profile": "Profile"
+  },
+  "landing": {
+    "hero": {
+      "title": "Learn Darija, slowly and naturally.",
+      "subtitle": "Moroccan Arabic made approachable — at your own pace, with real conversations.",
+      "cta": "Start Learning",
+      "secondary_cta": "See Pricing"
+    },
+    "method": {
+      "title": "The Slow Darija Method",
+      "subtitle": "No rote memorization. No textbook fatigue. Just natural immersion.",
+      "step1_title": "Listen & Absorb",
+      "step1_desc": "Start with real Darija phrases used in everyday life.",
+      "step2_title": "Practice with a Teacher",
+      "step2_desc": "Book live 1-on-1 lessons with native-speaking teachers.",
+      "step3_title": "Build Confidence",
+      "step3_desc": "Speak naturally, without overthinking grammar rules."
+    },
+    "benefits": {
+      "title": "Why Slow Darija?",
+      "benefit1_title": "Live 1-on-1 Lessons",
+      "benefit1_desc": "Real conversations with native Darija speakers, not chatbots.",
+      "benefit2_title": "Flexible Scheduling",
+      "benefit2_desc": "Book lessons when it suits you. Cancel anytime.",
+      "benefit3_title": "Natural Progression",
+      "benefit3_desc": "Learn at your own rhythm. No pressure, no deadlines.",
+      "benefit4_title": "Cultural Immersion",
+      "benefit4_desc": "Understand the culture behind the language."
+    },
+    "testimonials": {
+      "title": "What Our Learners Say",
+      "t1_quote": "I never thought I could learn Darija so naturally. The lessons feel like conversations with a friend.",
+      "t1_author": "Sophie M.",
+      "t1_role": "Student, 6 months",
+      "t2_quote": "The flexible scheduling is perfect for my busy life. I actually look forward to my lessons.",
+      "t2_author": "Thomas K.",
+      "t2_role": "Student, 3 months",
+      "t3_quote": "After years of trying apps, this is what finally worked. Real human connection makes all the difference.",
+      "t3_author": "Amina B.",
+      "t3_role": "Student, 1 year"
+    },
+    "pricing_teaser": {
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "Choose a plan that fits your learning journey.",
+      "cta": "View All Plans"
+    },
+    "footer": {
+      "tagline": "Learn Moroccan Darija, one conversation at a time.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "rights": "All rights reserved."
+    }
+  },
+  "about": {
+    "title": "About Slow Darija",
+    "intro": "We believe the best way to learn a language is slowly, naturally, and with real people.",
+    "mission_title": "Our Mission",
+    "mission_desc": "To make Moroccan Darija accessible to everyone, regardless of their background or learning speed.",
+    "story_title": "Our Story",
+    "story_desc": "Slow Darija was born from a simple observation: traditional language courses move too fast and feel too artificial. We wanted to create something different — a space where learning Darija feels like a natural conversation, not a classroom exercise.",
+    "approach_title": "Our Approach",
+    "approach_desc": "We pair you with native Darija speakers for live, 1-on-1 lessons. No scripts, no rigid curriculum — just authentic conversations tailored to your level and interests."
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Start learning Darija today. Upgrade or cancel anytime.",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "save": "Save 10%",
+    "per_month": "/month",
+    "billed_annually": "Billed annually",
+    "most_popular": "Most Popular",
+    "get_started": "Get Started",
+    "features": {
+      "lessons_per_month": "{count} lessons/month",
+      "lesson_duration": "60-minute lessons",
+      "flexible_scheduling": "Flexible scheduling",
+      "priority_booking": "Priority booking",
+      "cultural_workshops": "Cultural workshops",
+      "progress_tracking": "Progress tracking",
+      "dedicated_teacher": "Dedicated teacher"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "Perfect for trying Darija at your own pace."
+    },
+    "plus": {
+      "name": "Plus",
+      "description": "For committed learners who want steady progress."
+    },
+    "premium": {
+      "name": "Premium",
+      "description": "Intensive learning with maximum flexibility."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Log in to continue your Darija journey.",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Log in",
+      "forgot_password": "Forgot your password?",
+      "no_account": "Don't have an account?",
+      "sign_up_link": "Sign up"
+    },
+    "register": {
+      "title": "Start your journey",
+      "subtitle": "Create your account and begin learning Darija.",
+      "full_name": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "confirm_password": "Confirm password",
+      "preferred_language": "Preferred language",
+      "submit": "Create account",
+      "has_account": "Already have an account?",
+      "login_link": "Log in",
+      "terms_agreement": "By creating an account, you agree to our {terms} and {privacy}."
+    },
+    "reset_password": {
+      "title": "Reset your password",
+      "subtitle": "Enter your email and we'll send you a reset link.",
+      "email": "Email address",
+      "submit": "Send reset link",
+      "back_to_login": "Back to login",
+      "success": "Check your email for a password reset link."
+    },
+    "verify_email": {
+      "title": "Check your email",
+      "subtitle": "We've sent a verification link to {email}.",
+      "resend": "Resend verification email"
+    },
+    "errors": {
+      "invalid_credentials": "Invalid email or password.",
+      "email_taken": "An account with this email already exists.",
+      "weak_password": "Password must be at least 8 characters.",
+      "passwords_mismatch": "Passwords do not match.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "dashboard": {
+    "title": "Book Your Lesson",
+    "credits": {
+      "remaining": "{count} lessons remaining",
+      "none": "No lessons remaining this month.",
+      "upgrade": "Upgrade your plan"
+    },
+    "calendar": {
+      "today": "Today",
+      "previous": "Previous month",
+      "next": "Next month",
+      "available": "Available",
+      "selected": "Selected",
+      "fully_booked": "Fully booked",
+      "unavailable": "Unavailable",
+      "past": "Past",
+      "your_booking": "Your booking",
+      "no_slots": "No available slots on this date."
+    },
+    "booking": {
+      "confirm_title": "Confirm your lesson",
+      "confirm_date": "{day}, {date}",
+      "confirm_time": "{start} – {end}",
+      "confirm_teacher": "Teacher: {name}",
+      "confirm_button": "Confirm Booking",
+      "cancel_button": "Cancel",
+      "success": "Lesson booked successfully!",
+      "cancel_booking": "Cancel this booking",
+      "cancel_confirm": "Are you sure you want to cancel this booking?",
+      "join_lesson": "Join Lesson",
+      "credits_used": "1 lesson credit will be used."
+    }
+  },
+  "admin": {
+    "nav": {
+      "overview": "Overview",
+      "students": "Students",
+      "plans": "Plans",
+      "calendar": "Lesson Calendar",
+      "bookings": "Bookings",
+      "settings": "Settings"
+    },
+    "overview": {
+      "title": "Admin Overview",
+      "active_subscribers": "Active Subscribers",
+      "upcoming_lessons": "Upcoming Lessons",
+      "total_bookings": "Total Bookings",
+      "revenue": "Revenue"
+    },
+    "slots": {
+      "add": "Add Availability",
+      "date": "Date",
+      "start_time": "Start Time",
+      "end_time": "End Time",
+      "teacher": "Teacher",
+      "capacity": "Capacity",
+      "teams_url": "Teams Meeting URL",
+      "status": "Status",
+      "save": "Save Slot"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "close": "Close",
+    "search": "Search",
+    "no_results": "No results found.",
+    "currency": "€",
+    "language": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "de": "Deutsch",
+      "tr": "Türkçe"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "last_updated": "Last updated: {date}"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "last_updated": "Last updated: {date}"
+    }
+  }
+}
