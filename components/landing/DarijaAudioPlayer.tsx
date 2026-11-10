@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { Button } from '@/components/ui/button';
-import { Volume2, Play, Pause, Sparkles, Sliders, Snail, Zap } from 'lucide-react';
+import { Volume2, Play, Pause, Sparkles, Snail, Zap } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface Phrase {
@@ -11,6 +11,7 @@ interface Phrase {
   transliteration: string;
   translation: string;
   context: string;
+  audioSrc: string;
 }
 
 const PHRASES: Phrase[] = [
@@ -20,6 +21,7 @@ const PHRASES: Phrase[] = [
     transliteration: 'Salam 3likoum',
     translation: 'Peace be upon you / Hello',
     context: 'Everyday universal Moroccan greeting',
+    audioSrc: '/darija_learning/audio/phrase-1.mp3',
   },
   {
     id: '2',
@@ -27,6 +29,7 @@ const PHRASES: Phrase[] = [
     transliteration: 'Labas 3lik?',
     translation: 'How are you doing?',
     context: 'Friendly informal inquiry',
+    audioSrc: '/darija_learning/audio/phrase-2.mp3',
   },
   {
     id: '3',
@@ -34,6 +37,7 @@ const PHRASES: Phrase[] = [
     transliteration: 'Koulchi bikhir, l-hamdullah',
     translation: 'Everything is great, thank God',
     context: 'Natural positive response',
+    audioSrc: '/darija_learning/audio/phrase-3.mp3',
   },
   {
     id: '4',
@@ -41,6 +45,7 @@ const PHRASES: Phrase[] = [
     transliteration: 'B chwiya b chwiya',
     translation: 'Slowly, step by step',
     context: 'The Slow Darija philosophy',
+    audioSrc: '/darija_learning/audio/phrase-4.mp3',
   },
   {
     id: '5',
@@ -48,6 +53,7 @@ const PHRASES: Phrase[] = [
     transliteration: 'Choukran bzaf',
     translation: 'Thank you very much',
     context: 'Warm Moroccan gratitude',
+    audioSrc: '/darija_learning/audio/phrase-5.mp3',
   },
 ];
 
@@ -55,29 +61,109 @@ export function DarijaAudioPlayer() {
   const [selectedPhrase, setSelectedPhrase] = React.useState<Phrase>(PHRASES[0]);
   const [isPlaying, setIsPlaying] = React.useState(false);
   const [isSlowMode, setIsSlowMode] = React.useState(true);
+  const audioRef = React.useRef<HTMLAudioElement | null>(null);
+
+  // Clean up audio on unmount
+  React.useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
+
+  // Dynamically update playback rate if slow mode toggled while playing
+  React.useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.playbackRate = isSlowMode ? 0.75 : 1.0;
+    }
+  }, [isSlowMode]);
+
+  const handleSelectPhrase = (phrase: Phrase) => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    setSelectedPhrase(phrase);
+    setIsPlaying(false);
+  };
+
+  const fallbackSpeechSynthesis = (phrase: Phrase) => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      setIsPlaying(false);
+      return;
+    }
+
+    try {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(phrase.arabic);
+      const voices = window.speechSynthesis.getVoices();
+      const arabicVoice = voices.find((v) => v.lang.startsWith('ar'));
+      if (arabicVoice) {
+        utterance.voice = arabicVoice;
+        utterance.lang = arabicVoice.lang;
+      } else {
+        utterance.lang = 'ar-SA';
+      }
+      utterance.rate = isSlowMode ? 0.75 : 1.0;
+      utterance.pitch = 1.0;
+      utterance.onend = () => setIsPlaying(false);
+      utterance.onerror = () => setIsPlaying(false);
+
+      window.speechSynthesis.speak(utterance);
+    } catch {
+      setIsPlaying(false);
+    }
+  };
 
   const playAudio = () => {
     if (isPlaying) {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
       setIsPlaying(false);
       return;
     }
 
     setIsPlaying(true);
 
-    // Use Web Speech Synthesis if available for natural pronunciation
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(selectedPhrase.arabic);
-      utterance.lang = 'ar-MA'; // Moroccan Arabic locale
-      utterance.rate = isSlowMode ? 0.75 : 1.0;
-      utterance.pitch = 1.0;
+    try {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
 
-      utterance.onend = () => setIsPlaying(false);
-      utterance.onerror = () => setIsPlaying(false);
+      const audio = new Audio(selectedPhrase.audioSrc);
+      audioRef.current = audio;
+      audio.playbackRate = isSlowMode ? 0.75 : 1.0;
 
-      window.speechSynthesis.speak(utterance);
-    } else {
-      setTimeout(() => setIsPlaying(false), 2000);
+      audio.onended = () => {
+        setIsPlaying(false);
+        audioRef.current = null;
+      };
+
+      audio.onerror = () => {
+        console.warn('Audio file playback failed, trying SpeechSynthesis fallback');
+        fallbackSpeechSynthesis(selectedPhrase);
+      };
+
+      audio.play().catch((err) => {
+        console.warn('Audio play() was interrupted or failed:', err);
+        fallbackSpeechSynthesis(selectedPhrase);
+      });
+    } catch (err) {
+      console.warn('Error initializing audio element:', err);
+      fallbackSpeechSynthesis(selectedPhrase);
     }
   };
 
@@ -104,10 +190,7 @@ export function DarijaAudioPlayer() {
             return (
               <button
                 key={phrase.id}
-                onClick={() => {
-                  setSelectedPhrase(phrase);
-                  setIsPlaying(false);
-                }}
+                onClick={() => handleSelectPhrase(phrase)}
                 className={cn(
                   'px-4 py-2.5 rounded-2xl text-xs sm:text-sm font-medium transition-all duration-200 cursor-pointer flex items-center gap-2',
                   isSelected
