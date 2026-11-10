@@ -93,6 +93,13 @@ export default function RegisterPage() {
       <main className="min-h-[90vh] flex items-center justify-center py-20 px-4 bg-background">
         <div className="w-full max-w-md bg-card border border-border/80 rounded-3xl p-8 sm:p-10 shadow-lg space-y-6">
           <div className="text-center space-y-2">
+            <Link href="/" className="inline-flex items-center justify-center mb-1 group">
+              <img
+                src="/darija_learning/assets/Slow_Darija_Logo.png"
+                alt="Slow Darija"
+                className="w-16 h-16 object-contain rounded-2xl shadow-sm transition-transform group-hover:scale-105"
+              />
+            </Link>
             <h1 className="text-3xl font-bold tracking-tight">{t('title')}</h1>
             <p className="text-sm text-muted-foreground">{t('subtitle')}</p>
           </div>

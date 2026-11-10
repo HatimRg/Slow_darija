@@ -21,7 +21,7 @@ export default defineConfig({
     },
     triggers: [
       triggers.fetch({
-        pattern: "preview.pragmatrix.ma/darija_learning/*",
+        pattern: "preview.pragmatrix.ma/darija_learning*",
         zone: "pragmatrix.ma",
       }),
     ],

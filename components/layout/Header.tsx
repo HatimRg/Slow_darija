@@ -43,8 +43,15 @@ export function Header() {
       )}
     >
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-1 font-bold text-xl tracking-tight">
-          Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+        <Link href="/" className="flex items-center gap-2.5 font-bold text-xl tracking-tight group">
+          <img
+            src="/darija_learning/assets/Slow_Darija_Logo.png"
+            alt="Slow Darija"
+            className="w-9 h-9 object-contain rounded-xl shadow-xs transition-transform group-hover:scale-105"
+          />
+          <span className="flex items-center gap-1">
+            Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+          </span>
         </Link>
 
         {/* Desktop Nav */}

@@ -9,6 +9,18 @@ interface Env {
 
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext) {
+    const url = new URL(request.url);
+
+    // If accessing root /darija_learning or /darija_learning/, redirect cleanly to preferred locale
+    if (url.pathname === '/darija_learning' || url.pathname === '/darija_learning/') {
+      const cookie = request.headers.get('Cookie') || '';
+      const match = cookie.match(/NEXT_LOCALE=([a-z]{2})/i);
+      const preferred = match && ['en', 'fr', 'ar', 'de', 'tr'].includes(match[1].toLowerCase())
+        ? match[1].toLowerCase()
+        : 'en';
+      return Response.redirect(`${url.origin}/darija_learning/${preferred}${url.search}`, 307);
+    }
+
     const apiResponse = await handleApiRequest(request, env);
     if (apiResponse) return apiResponse;
 

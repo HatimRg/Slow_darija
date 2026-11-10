@@ -51,8 +51,15 @@ export function DashboardHeader() {
     <header className="sticky top-0 z-40 border-b border-border/70 bg-background/90 backdrop-blur-md">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-6">
-          <Link href="/dashboard" className="flex items-center gap-1 font-bold text-xl tracking-tight">
-            Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+          <Link href="/dashboard" className="flex items-center gap-2.5 font-bold text-xl tracking-tight group">
+            <img
+              src="/darija_learning/assets/Slow_Darija_Logo.png"
+              alt="Slow Darija"
+              className="w-8 h-8 object-contain rounded-lg shadow-xs transition-transform group-hover:scale-105"
+            />
+            <span className="flex items-center gap-1">
+              Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+            </span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1.5">

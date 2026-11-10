@@ -95,8 +95,15 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       <aside className="w-full md:w-64 border-r border-border/80 bg-card p-6 flex flex-col justify-between shrink-0">
         <div className="space-y-6">
           <div className="flex items-center justify-between pb-4 border-b border-border/60">
-            <Link href="/" className="flex items-center gap-1.5 font-bold text-lg tracking-tight">
-              Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+            <Link href="/" className="flex items-center gap-2.5 font-bold text-lg tracking-tight group">
+              <img
+                src="/darija_learning/assets/Slow_Darija_Logo.png"
+                alt="Slow Darija"
+                className="w-7 h-7 object-contain rounded-lg shadow-xs transition-transform group-hover:scale-105"
+              />
+              <span className="flex items-center gap-1">
+                Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+              </span>
             </Link>
             <span className="px-2 py-0.5 rounded-md bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider flex items-center gap-1">
               <ShieldCheck className="w-3 h-3" />

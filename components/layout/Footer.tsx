@@ -14,8 +14,15 @@ export function Footer() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-1 md:col-span-1 flex flex-col gap-4">
-            <Link href="/" className="flex items-center gap-1 font-bold text-xl tracking-tight">
-              Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+            <Link href="/" className="flex items-center gap-2.5 font-bold text-xl tracking-tight group">
+              <img
+                src="/darija_learning/assets/Slow_Darija_Logo.png"
+                alt="Slow Darija"
+                className="w-8 h-8 object-contain rounded-lg shadow-xs transition-transform group-hover:scale-105"
+              />
+              <span className="flex items-center gap-1">
+                Slow Darija<span className="w-1.5 h-1.5 rounded-full bg-primary mb-1 inline-block"></span>
+              </span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">
               {t('tagline')}
