@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Cloudflare Preview
+
+The Cloudflare Worker preview is available at
+[`https://preview.pragmatrix.ma/darija_learning/`](https://preview.pragmatrix.ma/darija_learning/).
+It uses an isolated D1 database with synthetic demo accounts; local database data is not copied,
+and checkout uses mock payments.
+
+Apply database changes before deploying:
+
+```bash
+cf d1 migrations apply e0917e17-ee33-4ca6-b924-9eb53b5c8973 --dir migrations
+npm run build:vinext
+npm run deploy
+```

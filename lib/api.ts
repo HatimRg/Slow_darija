@@ -1,4 +1,4 @@
-export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '/darija';
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || '/darija_learning';
 
 export function apiUrl(endpoint: string): string {
   const cleanEndpoint = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
