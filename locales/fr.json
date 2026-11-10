@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "Slow Darija — Apprenez la Darija marocaine",
+    "description": "Apprenez la Darija marocaine naturellement, à votre rythme et sans vous presser."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "pricing": "Tarifs",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "dashboard": "Tableau de bord",
+    "admin": "Administration",
+    "logout": "Déconnexion",
+    "profile": "Profil"
+  },
+  "landing": {
+    "hero": {
+      "title": "Apprenez la Darija, doucement et naturellement.",
+      "subtitle": "L'arabe marocain à votre portée — à votre propre rythme, grâce à de vraies conversations.",
+      "cta": "Commencer à apprendre",
+      "secondary_cta": "Voir les tarifs"
+    },
+    "method": {
+      "title": "La méthode Slow Darija",
+      "subtitle": "Pas de mémorisation par cœur. Pas de manuels scolaires rébarbatifs. Juste une immersion naturelle.",
+      "step1_title": "Écoutez & Imprégnez-vous",
+      "step1_desc": "Commencez par de vraies phrases en Darija utilisées dans la vie quotidienne.",
+      "step2_title": "Pratiquez avec un professeur",
+      "step2_desc": "Réservez des cours particuliers en direct avec des professeurs natifs.",
+      "step3_title": "Gagnez en confiance",
+      "step3_desc": "Parlez naturellement, sans trop penser aux règles de grammaire."
+    },
+    "benefits": {
+      "title": "Pourquoi Slow Darija ?",
+      "benefit1_title": "Cours particuliers en direct",
+      "benefit1_desc": "De vraies conversations avec des locuteurs natifs de Darija, pas des chatbots.",
+      "benefit2_title": "Horaires flexibles",
+      "benefit2_desc": "Réservez vos cours selon vos disponibilités. Annulez à tout moment.",
+      "benefit3_title": "Progression naturelle",
+      "benefit3_desc": "Apprenez à votre propre rythme. Sans pression ni date limite.",
+      "benefit4_title": "Immersion culturelle",
+      "benefit4_desc": "Comprenez la culture et les nuances derrière la langue."
+    },
+    "testimonials": {
+      "title": "Ce que disent nos apprenants",
+      "t1_quote": "Je n'aurais jamais pensé pouvoir apprendre la Darija aussi naturellement. Les cours ressemblent à des discussions entre amis.",
+      "t1_author": "Sophie M.",
+      "t1_role": "Élève, 6 mois",
+      "t2_quote": "La flexibilité des horaires s'adapte parfaitement à ma vie active. J'ai vraiment hâte d'assister à chaque cours.",
+      "t2_author": "Thomas K.",
+      "t2_role": "Élève, 3 mois",
+      "t3_quote": "Après des années à essayer des applications, c'est ce qui a enfin fonctionné. Le contact humain fait toute la différence.",
+      "t3_author": "Amina B.",
+      "t3_role": "Élève, 1 an"
+    },
+    "pricing_teaser": {
+      "title": "Des tarifs simples et transparents",
+      "subtitle": "Choisissez la formule adaptée à votre parcours d'apprentissage.",
+      "cta": "Voir toutes les offres"
+    },
+    "footer": {
+      "tagline": "Apprenez la Darija marocaine, une conversation à la fois.",
+      "product": "Produit",
+      "company": "Entreprise",
+      "legal": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "rights": "Tous droits réservés."
+    }
+  },
+  "about": {
+    "title": "À propos de Slow Darija",
+    "intro": "Nous sommes convaincus que la meilleure façon d'apprendre une langue est de le faire lentement, naturellement et avec de vraies personnes.",
+    "mission_title": "Notre mission",
+    "mission_desc": "Rendre la Darija marocaine accessible à tous, quel que soit votre parcours ou votre vitesse d'apprentissage.",
+    "story_title": "Notre histoire",
+    "story_desc": "Slow Darija est né d'un constat simple : les cours de langue traditionnels vont trop vite et semblent artificiels. Nous voulions créer un espace différent — où apprendre la Darija ressemble à une conversation naturelle, et non à un exercice de classe.",
+    "approach_title": "Notre approche",
+    "approach_desc": "Nous vous mettons en relation avec des locuteurs natifs pour des cours particuliers en direct. Pas de scripts, pas de programme rigide — uniquement des conversations authentiques adaptées à votre niveau et à vos centres d'intérêt."
+  },
+  "pricing": {
+    "title": "Choisissez votre formule",
+    "subtitle": "Commencez à apprendre la Darija dès aujourd'hui. Modifiez ou annulez à tout moment.",
+    "monthly": "Mensuel",
+    "annually": "Annuel",
+    "save": "Économisez 10%",
+    "per_month": "/mois",
+    "billed_annually": "Facturé annuellement",
+    "most_popular": "Le plus populaire",
+    "get_started": "Commencer",
+    "features": {
+      "lessons_per_month": "{count} cours/mois",
+      "lesson_duration": "Cours de 60 minutes",
+      "flexible_scheduling": "Horaires flexibles",
+      "priority_booking": "Réservation prioritaire",
+      "cultural_workshops": "Ateliers culturels",
+      "progress_tracking": "Suivi des progrès",
+      "dedicated_teacher": "Professeur dédié"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "Idéal pour découvrir la Darija à votre rythme."
+    },
+    "plus": {
+      "name": "Plus",
+      "description": "Pour les apprenants motivés qui souhaitent progresser régulièrement."
+    },
+    "premium": {
+      "name": "Premium",
+      "description": "Un apprentissage intensif avec une flexibilité maximale."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bon retour parmi nous",
+      "subtitle": "Connectez-vous pour poursuivre votre aventure en Darija.",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgot_password": "Mot de passe oublié ?",
+      "no_account": "Vous n'avez pas de compte ?",
+      "sign_up_link": "S'inscrire"
+    },
+    "register": {
+      "title": "Commencez l'aventure",
+      "subtitle": "Créez votre compte et débutez votre apprentissage de la Darija.",
+      "full_name": "Nom complet",
+      "email": "Adresse email",
+      "password": "Mot de passe",
+      "confirm_password": "Confirmer le mot de passe",
+      "preferred_language": "Langue préférée",
+      "submit": "Créer un compte",
+      "has_account": "Vous avez déjà un compte ?",
+      "login_link": "Se connecter",
+      "terms_agreement": "En créant un compte, vous acceptez nos {terms} et notre {privacy}."
+    },
+    "reset_password": {
+      "title": "Réinitialiser votre mot de passe",
+      "subtitle": "Entrez votre email et nous vous enverrons un lien de réinitialisation.",
+      "email": "Adresse email",
+      "submit": "Envoyer le lien",
+      "back_to_login": "Retour à la connexion",
+      "success": "Consultez votre boîte mail pour le lien de réinitialisation."
+    },
+    "verify_email": {
+      "title": "Vérifiez votre boîte mail",
+      "subtitle": "Nous avons envoyé un lien de confirmation à {email}.",
+      "resend": "Renvoyer l'email de vérification"
+    },
+    "errors": {
+      "invalid_credentials": "Email ou mot de passe incorrect.",
+      "email_taken": "Un compte existe déjà avec cette adresse email.",
+      "weak_password": "Le mot de passe doit comporter au moins 8 caractères.",
+      "passwords_mismatch": "Les mots de passe ne correspondent pas.",
+      "generic": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "dashboard": {
+    "title": "Réserver votre cours",
+    "credits": {
+      "remaining": "{count} cours restants",
+      "none": "Aucun cours restant ce mois-ci.",
+      "upgrade": "Changer de formule"
+    },
+    "calendar": {
+      "today": "Aujourd'hui",
+      "previous": "Mois précédent",
+      "next": "Mois suivant",
+      "available": "Disponible",
+      "selected": "Sélectionné",
+      "fully_booked": "Complet",
+      "unavailable": "Indisponible",
+      "past": "Passé",
+      "your_booking": "Votre réservation",
+      "no_slots": "Aucun créneau disponible à cette date."
+    },
+    "booking": {
+      "confirm_title": "Confirmer votre cours",
+      "confirm_date": "{day}, {date}",
+      "confirm_time": "{start} – {end}",
+      "confirm_teacher": "Professeur : {name}",
+      "confirm_button": "Confirmer la réservation",
+      "cancel_button": "Annuler",
+      "success": "Cours réservé avec succès !",
+      "cancel_booking": "Annuler cette réservation",
+      "cancel_confirm": "Êtes-vous sûr de vouloir annuler cette réservation ?",
+      "join_lesson": "Rejoindre le cours",
+      "credits_used": "1 crédit de cours sera utilisé."
+    }
+  },
+  "admin": {
+    "nav": {
+      "overview": "Aperçu",
+      "students": "Élèves",
+      "plans": "Formules",
+      "calendar": "Calendrier des cours",
+      "bookings": "Réservations",
+      "settings": "Paramètres"
+    },
+    "overview": {
+      "title": "Tableau de bord Admin",
+      "active_subscribers": "Abonnés actifs",
+      "upcoming_lessons": "Cours à venir",
+      "total_bookings": "Total des réservations",
+      "revenue": "Revenus"
+    },
+    "slots": {
+      "add": "Ajouter des disponibilités",
+      "date": "Date",
+      "start_time": "Heure de début",
+      "end_time": "Heure de fin",
+      "teacher": "Professeur",
+      "capacity": "Capacité",
+      "teams_url": "Lien de réunion Teams",
+      "status": "Statut",
+      "save": "Enregistrer le créneau"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "confirm": "Confirmer",
+    "close": "Fermer",
+    "search": "Rechercher",
+    "no_results": "Aucun résultat trouvé.",
+    "currency": "€",
+    "language": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "de": "Deutsch",
+      "tr": "Türkçe"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "last_updated": "Dernière mise à jour : {date}"
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "last_updated": "Dernière mise à jour : {date}"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "Slow Darija — Marokkanisches Arabisch lernen",
+    "description": "Lerne marokkanisches Darija auf natürliche Weise und ganz ohne Hektik."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "pricing": "Preise",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "logout": "Abmelden",
+    "profile": "Profil"
+  },
+  "landing": {
+    "hero": {
+      "title": "Lerne Darija, entspannt und natürlich.",
+      "subtitle": "Marokkanisches Arabisch leicht gemacht — in deinem eigenen Tempo, mit echten Gesprächen.",
+      "cta": "Jetzt starten",
+      "secondary_cta": "Preise ansehen"
+    },
+    "method": {
+      "title": "Die Slow Darija Methode",
+      "subtitle": "Kein stures Auswendiglernen. Keine trockenen Lehrbücher. Einfach natürliches Eintauchen.",
+      "step1_title": "Zuhören & Verinnerlichen",
+      "step1_desc": "Starte mit authentischen Darija-Ausdrücken aus dem Alltag.",
+      "step2_title": "Mit Lehrkräften üben",
+      "step2_desc": "Buche 1-zu-1 Live-Unterricht mit muttersprachlichen Lehrkräften.",
+      "step3_title": "Selbstvertrauen aufbauen",
+      "step3_desc": "Sprich ganz natürlich, ohne ständig über Grammatikregeln nachzudenken."
+    },
+    "benefits": {
+      "title": "Warum Slow Darija?",
+      "benefit1_title": "1-zu-1 Live-Unterricht",
+      "benefit1_desc": "Echte Unterhaltungen mit Darija-Muttersprachlern, keine Chatbots.",
+      "benefit2_title": "Flexible Terminwahl",
+      "benefit2_desc": "Buche Stunden, wann es dir passt. Jederzeit kündbar.",
+      "benefit3_title": "Natürlicher Fortschritt",
+      "benefit3_desc": "Lerne in deinem eigenen Rhythmus. Ganz ohne Druck und Fristen.",
+      "benefit4_title": "Kulturelles Eintauchen",
+      "benefit4_desc": "Verstehe die Kultur und Lebensart hinter der Sprache."
+    },
+    "testimonials": {
+      "title": "Was unsere Lernenden sagen",
+      "t1_quote": "Ich hätte nie gedacht, dass ich Darija so natürlich lernen kann. Die Stunden fühlen sich an wie Gespräche mit Freunden.",
+      "t1_author": "Sophie M.",
+      "t1_role": "Schülerin, 6 Monate",
+      "t2_quote": "Die flexible Zeiteinteilung passt perfekt in meinen Alltag. Ich freue mich jedes Mal auf meine Unterrichtsstunde.",
+      "t2_author": "Thomas K.",
+      "t2_role": "Schüler, 3 Monate",
+      "t3_quote": "Nach Jahren mit diversen Apps hat endlich etwas funktioniert. Der echte menschliche Kontakt macht den Unterschied.",
+      "t3_author": "Amina B.",
+      "t3_role": "Schülerin, 1 Jahr"
+    },
+    "pricing_teaser": {
+      "title": "Einfache, transparente Preise",
+      "subtitle": "Wähle das Modell, das am besten zu deiner Lernreise passt.",
+      "cta": "Alle Tarife ansehen"
+    },
+    "footer": {
+      "tagline": "Lerne marokkanisches Darija, ein Gespräch nach dem anderen.",
+      "product": "Produkt",
+      "company": "Unternehmen",
+      "legal": "Rechtliches",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "rights": "Alle Rechte vorbehalten."
+    }
+  },
+  "about": {
+    "title": "Über Slow Darija",
+    "intro": "Wir glauben daran, dass Sprachen am besten entspannt, natürlich und im Austausch mit echten Menschen gelernt werden.",
+    "mission_title": "Unsere Mission",
+    "mission_desc": "Marokkanisches Darija für jeden zugänglich zu machen — unabhängig von Vorkenntnissen oder Lerntempo.",
+    "story_title": "Unsere Geschichte",
+    "story_desc": "Slow Darija entstand aus einer einfachen Beobachtung: Herkömmliche Sprachkurse sind zu schnell und wirken künstlich. Wir wollten einen Ort schaffen, an dem sich das Lernen wie eine lockere Unterhaltung anfühlt und nicht wie Unterricht.",
+    "approach_title": "Unser Ansatz",
+    "approach_desc": "Wir bringen dich mit muttersprachlichen Lehrkräften für individuellen 1-zu-1 Unterricht zusammen. Keine starren Lehrpläne — sondern echte Gespräche, abgestimmt auf dein Niveau und deine Interessen."
+  },
+  "pricing": {
+    "title": "Wähle deinen Tarif",
+    "subtitle": "Starte noch heute mit Darija. Jederzeit upgraden oder kündigen.",
+    "monthly": "Monatlich",
+    "annually": "Jährlich",
+    "save": "10% sparen",
+    "per_month": "/Monat",
+    "billed_annually": "Jährlich abgerechnet",
+    "most_popular": "Beliebteste Wahl",
+    "get_started": "Jetzt starten",
+    "features": {
+      "lessons_per_month": "{count} Unterrichtsstunden/Monat",
+      "lesson_duration": "60-minütige Unterrichtsstunden",
+      "flexible_scheduling": "Flexible Terminplanung",
+      "priority_booking": "Prioritätsbuchung",
+      "cultural_workshops": "Kultur-Workshops",
+      "progress_tracking": "Fortschrittsverfolgung",
+      "dedicated_teacher": "Feste Lehrkraft"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "Perfekt, um Darija ganz entspannt im eigenen Tempo auszuprobieren."
+    },
+    "plus": {
+      "name": "Plus",
+      "description": "Für motivierte Lernende, die kontinuierliche Fortschritte machen möchten."
+    },
+    "premium": {
+      "name": "Premium",
+      "description": "Intensives Lernen mit maximaler Flexibilität."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melde dich an, um deine Darija-Lernreise fortzusetzen.",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "forgot_password": "Passwort vergessen?",
+      "no_account": "Noch kein Konto?",
+      "sign_up_link": "Registrieren"
+    },
+    "register": {
+      "title": "Starte deine Reise",
+      "subtitle": "Erstelle dein Konto und beginne mit dem Darija-Lernen.",
+      "full_name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "password": "Passwort",
+      "confirm_password": "Passwort bestätigen",
+      "preferred_language": "Bevorzugte Sprache",
+      "submit": "Konto erstellen",
+      "has_account": "Bereits registriert?",
+      "login_link": "Anmelden",
+      "terms_agreement": "Mit der Erstellung eines Kontos stimmst du unseren {terms} und der {privacy} zu."
+    },
+    "reset_password": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Gib deine E-Mail-Adresse ein und wir senden dir einen Link zum Zurücksetzen.",
+      "email": "E-Mail-Adresse",
+      "submit": "Link senden",
+      "back_to_login": "Zurück zur Anmeldung",
+      "success": "Wir haben dir einen Link zum Zurücksetzen deines Passworts per E-Mail gesendet."
+    },
+    "verify_email": {
+      "title": "E-Mails prüfen",
+      "subtitle": "Wir haben einen Bestätigungslink an {email} gesendet.",
+      "resend": "Bestätigungs-E-Mail erneut senden"
+    },
+    "errors": {
+      "invalid_credentials": "Ungültige E-Mail-Adresse oder Passwort.",
+      "email_taken": "Ein Konto mit dieser E-Mail-Adresse existiert bereits.",
+      "weak_password": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+      "passwords_mismatch": "Passwörter stimmen nicht überein.",
+      "generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+    }
+  },
+  "dashboard": {
+    "title": "Unterricht buchen",
+    "credits": {
+      "remaining": "{count} Stunden verbleibend",
+      "none": "Keine Stunden mehr in diesem Monat übrig.",
+      "upgrade": "Tarif upgraden"
+    },
+    "calendar": {
+      "today": "Heute",
+      "previous": "Vorheriger Monat",
+      "next": "Nächster Monat",
+      "available": "Verfügbar",
+      "selected": "Ausgewählt",
+      "fully_booked": "Ausgebucht",
+      "unavailable": "Nicht verfügbar",
+      "past": "Vergangen",
+      "your_booking": "Deine Buchung",
+      "no_slots": "Keine verfügbaren Termine an diesem Tag."
+    },
+    "booking": {
+      "confirm_title": "Unterrichtsstunde bestätigen",
+      "confirm_date": "{day}, {date}",
+      "confirm_time": "{start} – {end}",
+      "confirm_teacher": "Lehrkraft: {name}",
+      "confirm_button": "Buchung bestätigen",
+      "cancel_button": "Abbrechen",
+      "success": "Unterrichtsstunde erfolgreich gebucht!",
+      "cancel_booking": "Diese Buchung stornieren",
+      "cancel_confirm": "Möchtest du diese Buchung wirklich stornieren?",
+      "join_lesson": "Am Unterricht teilnehmen",
+      "credits_used": "1 Unterrichts-Guthaben wird verwendet."
+    }
+  },
+  "admin": {
+    "nav": {
+      "overview": "Übersicht",
+      "students": "Schüler",
+      "plans": "Tarife",
+      "calendar": "Stundenplan",
+      "bookings": "Buchungen",
+      "settings": "Einstellungen"
+    },
+    "overview": {
+      "title": "Admin-Übersicht",
+      "active_subscribers": "Aktive Abonnenten",
+      "upcoming_lessons": "Bevorstehende Stunden",
+      "total_bookings": "Gesamte Buchungen",
+      "revenue": "Umsatz"
+    },
+    "slots": {
+      "add": "Verfügbarkeit hinzufügen",
+      "date": "Datum",
+      "start_time": "Startzeit",
+      "end_time": "Endzeit",
+      "teacher": "Lehrkraft",
+      "capacity": "Kapazität",
+      "teams_url": "Teams-Meeting-Link",
+      "status": "Status",
+      "save": "Termin speichern"
+    }
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "back": "Zurück",
+    "next": "Weiter",
+    "confirm": "Bestätigen",
+    "close": "Schließen",
+    "search": "Suchen",
+    "no_results": "Keine Ergebnisse gefunden.",
+    "currency": "€",
+    "language": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "de": "Deutsch",
+      "tr": "Türkçe"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "last_updated": "Zuletzt aktualisiert: {date}"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "last_updated": "Zuletzt aktualisiert: {date}"
+    }
+  }
+}

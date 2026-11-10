@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "title": "Slow Darija — Fas Arapçası Öğrenin",
+    "description": "Fas Darija'sını aceleye getirmeden, doğal bir şekilde öğrenin."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "pricing": "Fiyatlandırma",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "dashboard": "Panel",
+    "admin": "Yönetici",
+    "logout": "Çıkış Yap",
+    "profile": "Profil"
+  },
+  "landing": {
+    "hero": {
+      "title": "Darija'yı sakince ve doğal bir şekilde öğrenin.",
+      "subtitle": "Fas Arapçası artık daha erişilebilir — kendi hızınızda, gerçek sohbetlerle.",
+      "cta": "Öğrenmeye Başla",
+      "secondary_cta": "Fiyatları Gör"
+    },
+    "method": {
+      "title": "Slow Darija Metodu",
+      "subtitle": "Ezberlemek yok. Sıkıcı ders kitapları yok. Sadece doğal bir deneyim.",
+      "step1_title": "Dinleyin ve Özümseyin",
+      "step1_desc": "Günlük hayatta gerçekten kullanılan Darija ifadeleriyle başlayın.",
+      "step2_title": "Öğretmenle Pratik Yapın",
+      "step2_desc": "Ana dili Darija olan öğretmenlerle bire bir canlı dersler ayırtın.",
+      "step3_title": "Özgüven Kazanın",
+      "step3_desc": "Gramer kurallarına takılmadan, akıcı ve doğal bir şekilde konuşun."
+    },
+    "benefits": {
+      "title": "Neden Slow Darija?",
+      "benefit1_title": "Bire Bir Canlı Dersler",
+      "benefit1_desc": "Yapay zeka sohbet botları değil, Darija'yı ana dili olarak konuşanlarla gerçek diyaloglar.",
+      "benefit2_title": "Esnek Ders Programı",
+      "benefit2_desc": "Size en uygun zamanda ders ayırtın. İstediğiniz zaman iptal edin.",
+      "benefit3_title": "Doğal İlerleme",
+      "benefit3_desc": "Kendi temponuzda öğrenin. Baskı yok, son teslim tarihi yok.",
+      "benefit4_title": "Kültürel Deneyim",
+      "benefit4_desc": "Dilin ardındaki zengin kültürü keşfedin."
+    },
+    "testimonials": {
+      "title": "Öğrencilerimiz Neler Diyor?",
+      "t1_quote": "Darija'yı bu kadar doğal öğrenebileceğimi hiç düşünmemiştim. Dersler bir arkadaşla sohbet etmek gibi hissettiriyor.",
+      "t1_author": "Sophie M.",
+      "t1_role": "Öğrenci, 6 aydır",
+      "t2_quote": "Esnek ders saatleri yoğun hayatıma mükemmel uyum sağlıyor. Derslerimi iple çekiyorum.",
+      "t2_author": "Thomas K.",
+      "t2_role": "Öğrenci, 3 aydır",
+      "t3_quote": "Yıllarca farklı uygulamalar denedikten sonra nihayet işe yarayan yöntemi buldum. Gerçek insan iletişimi her şeyi değiştiriyor.",
+      "t3_author": "Amina B.",
+      "t3_role": "Öğrenci, 1 yıldır"
+    },
+    "pricing_teaser": {
+      "title": "Basit ve Şeffaf Fiyatlandırma",
+      "subtitle": "Öğrenme yolculuğunuza en uygun planı seçin.",
+      "cta": "Tüm Planları İncele"
+    },
+    "footer": {
+      "tagline": "Fas Darija'sını her defasında bir sohbetle öğrenin.",
+      "product": "Ürün",
+      "company": "Şirket",
+      "legal": "Yasal",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "rights": "Tüm hakları saklıdır."
+    }
+  },
+  "about": {
+    "title": "Slow Darija Hakkında",
+    "intro": "Bir dili öğrenmenin en iyi yolunun acele etmeden, doğal olarak ve gerçek insanlarla pratik yapmak olduğuna inanıyoruz.",
+    "mission_title": "Misyonumuz",
+    "mission_desc": "Geçmişi veya öğrenme hızı ne olursa olsun, Fas Darija'sını herkes için erişilebilir kılmak.",
+    "story_title": "Hikayemiz",
+    "story_desc": "Slow Darija basit bir gözlemle doğdu: Geleneksel dil kursları çok hızlı ilerliyor ve yapay hissettiriyor. Biz daha farklı bir alan yaratmak istedik — Darija öğrenmenin bir sınıf ödevi gibi değil, doğal bir sohbet gibi hissettirdiği bir alan.",
+    "approach_title": "Yaklaşımımız",
+    "approach_desc": "Canlı ve bire bir dersler için sizi ana dili Darija olan öğretmenlerle buluşturuyoruz. Ezberlenmiş diyaloglar veya katı müfredatlar yok — yalnızca seviyenize ve ilgi alanlarınıza özel otantik sohbetler."
+  },
+  "pricing": {
+    "title": "Planınızı Seçin",
+    "subtitle": "Darija öğrenmeye bugün başlayın. İstediğiniz zaman yükseltin veya iptal edin.",
+    "monthly": "Aylık",
+    "annually": "Yıllık",
+    "save": "%10 Tasarruf Edin",
+    "per_month": "/ay",
+    "billed_annually": "Yıllık faturalandırılır",
+    "most_popular": "En Popüler",
+    "get_started": "Başlayın",
+    "features": {
+      "lessons_per_month": "Ayda {count} ders",
+      "lesson_duration": "60 dakikalık dersler",
+      "flexible_scheduling": "Esnek ders planlama",
+      "priority_booking": "Öncelikli rezervasyon",
+      "cultural_workshops": "Kültür atölyeleri",
+      "progress_tracking": "İlerleme takibi",
+      "dedicated_teacher": "Özel öğretmen"
+    },
+    "starter": {
+      "name": "Starter",
+      "description": "Darija'yı kendi hızınızda denemek için ideal."
+    },
+    "plus": {
+      "name": "Plus",
+      "description": "Düzenli ilerleme kaydetmek isteyen kararlı öğrenciler için."
+    },
+    "premium": {
+      "name": "Premium",
+      "description": "Maksimum esneklikle yoğun öğrenim."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Tekrar hoş geldiniz",
+      "subtitle": "Darija yolculuğunuza devam etmek için giriş yapın.",
+      "email": "E-posta adresi",
+      "password": "Şifre",
+      "submit": "Giriş Yap",
+      "forgot_password": "Şifrenizi mi unuttunuz?",
+      "no_account": "Hesabınız yok mu?",
+      "sign_up_link": "Kayıt Ol"
+    },
+    "register": {
+      "title": "Yolculuğunuza Başlayın",
+      "subtitle": "Hesabınızı oluşturun ve Darija öğrenmeye başlayın.",
+      "full_name": "Ad Soyad",
+      "email": "E-posta adresi",
+      "password": "Şifre",
+      "confirm_password": "Şifreyi Onayla",
+      "preferred_language": "Tercih edilen dil",
+      "submit": "Hesap Oluştur",
+      "has_account": "Zaten bir hesabınız var mı?",
+      "login_link": "Giriş Yap",
+      "terms_agreement": "Hesap oluşturarak {terms} ve {privacy} kabul etmiş olursunuz."
+    },
+    "reset_password": {
+      "title": "Şifrenizi Sıfırlayın",
+      "subtitle": "E-postanızı girin, size bir sıfırlama bağlantısı gönderelim.",
+      "email": "E-posta adresi",
+      "submit": "Sıfırlama Bağlantısı Gönder",
+      "back_to_login": "Girişe Dön",
+      "success": "Şifre sıfırlama bağlantısı için e-postanızı kontrol edin."
+    },
+    "verify_email": {
+      "title": "E-postanızı Kontrol Edin",
+      "subtitle": "{email} adresine bir doğrulama bağlantısı gönderdik.",
+      "resend": "Doğrulama e-postasını tekrar gönder"
+    },
+    "errors": {
+      "invalid_credentials": "Geçersiz e-posta veya şifre.",
+      "email_taken": "Bu e-posta adresiyle kayıtlı bir hesap zaten var.",
+      "weak_password": "Şifre en az 8 karakterden oluşmalıdır.",
+      "passwords_mismatch": "Şifreler eşleşmiyor.",
+      "generic": "Bir sorun oluştu. Lütfen tekrar deneyin."
+    }
+  },
+  "dashboard": {
+    "title": "Dersinizi Ayırtın",
+    "credits": {
+      "remaining": "{count} ders hakkınız kaldı",
+      "none": "Bu ay için kalan dersiniz bulunmuyor.",
+      "upgrade": "Planınızı yükseltin"
+    },
+    "calendar": {
+      "today": "Bugün",
+      "previous": "Önceki ay",
+      "next": "Gelecek ay",
+      "available": "Müsait",
+      "selected": "Seçili",
+      "fully_booked": "Dolu",
+      "unavailable": "Müsait Değil",
+      "past": "Geçmiş",
+      "your_booking": "Rezervasyonunuz",
+      "no_slots": "Bu tarihte müsait ders saati bulunmuyor."
+    },
+    "booking": {
+      "confirm_title": "Dersinizi Onaylayın",
+      "confirm_date": "{day}, {date}",
+      "confirm_time": "{start} – {end}",
+      "confirm_teacher": "Öğretmen: {name}",
+      "confirm_button": "Rezervasyonu Onayla",
+      "cancel_button": "İptal",
+      "success": "Ders başarıyla rezerve edildi!",
+      "cancel_booking": "Bu rezervasyonu iptal et",
+      "cancel_confirm": "Bu rezervasyonu iptal etmek istediğinizden emin misiniz?",
+      "join_lesson": "Derse Katıl",
+      "credits_used": "1 ders kredisi kullanılacaktır."
+    }
+  },
+  "admin": {
+    "nav": {
+      "overview": "Genel Bakış",
+      "students": "Öğrenciler",
+      "plans": "Planlar",
+      "calendar": "Ders Takvimi",
+      "bookings": "Rezervasyonlar",
+      "settings": "Ayarlar"
+    },
+    "overview": {
+      "title": "Yönetici Paneli",
+      "active_subscribers": "Aktif Aboneler",
+      "upcoming_lessons": "Yaklaşan Dersler",
+      "total_bookings": "Toplam Rezervasyon",
+      "revenue": "Gelir"
+    },
+    "slots": {
+      "add": "Müsaitlik Ekle",
+      "date": "Tarih",
+      "start_time": "Başlangıç Saati",
+      "end_time": "Bitiş Saati",
+      "teacher": "Öğretmen",
+      "capacity": "Kapasite",
+      "teams_url": "Teams Toplantı Bağlantısı",
+      "status": "Durum",
+      "save": "Zaman Dilimini Kaydet"
+    }
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar dene",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "back": "Geri",
+    "next": "İleri",
+    "confirm": "Onayla",
+    "close": "Kapat",
+    "search": "Ara",
+    "no_results": "Sonuç bulunamadı.",
+    "currency": "€",
+    "language": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "de": "Deutsch",
+      "tr": "Türkçe"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "last_updated": "Son güncelleme: {date}"
+    },
+    "terms": {
+      "title": "Kullanım Koşulları",
+      "last_updated": "Son güncelleme: {date}"
+    }
+  }
+}
