@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "vite build",
+    "build:next": "next build",
     "start": "next start",
     "lint": "eslint",
     "dev:vinext": "vite dev --port 3001",
@@ -39,6 +40,7 @@
   "devDependencies": {
     "@capacitor/cli": "^8.5.1",
     "@cloudflare/vite-plugin": "^2.0.0-beta.v.14",
+    "@cloudflare/workers-types": "^5.20261110.1",
     "@tailwindcss/postcss": "^4",
     "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20",
